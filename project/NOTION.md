@@ -13,3 +13,11 @@ testing - defines whether or not we're in test mode
 `BaseSettings`, from `pydantic-settings`, validates the data so that when we create an instance of Settings, environment and testing will have types of str and bool, respectively.
 
 `BaseSettings` also automatically reads from environment variables for these config settings. In other words, environment: str = "dev" is equivalent to environment: str = os.getenv("ENVIRONMENT", "dev").
+
+
+3. Shut down the server and set the following environment variables:
+
+```
+(env)$ export ENVIRONMENT=prod
+(env)$ export TESTING=1
+```
