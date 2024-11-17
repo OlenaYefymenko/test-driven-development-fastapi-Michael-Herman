@@ -6,10 +6,10 @@ A RESTful API for asynchronous text summarization built with FastAPI and Test-Dr
 
 - Asynchronous text processing
 - RESTful API design
-- CRUD operations for summaries
 - PostgreSQL database integration
 - Docker containerization
-- Comprehensive test coverage using pytest
+- Pytest for writing unit and integration tests to test the API
+- GitHub Actions to run tests before deploying to Heroku
 
 ## 🐞 Getting Started
 
